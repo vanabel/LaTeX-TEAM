@@ -15,18 +15,22 @@
 
 由于本模板仓库包含有LaTeX写作模板以及文件结构. 你可以以此为模板进行协作.
 
-1. 新建一个团队协作目录(例如`TEAM`), 并在`cygwin-shell`下切换到该目录
+1. 准备工作
+	
+	* 新建一个团队协作目录(例如`TEAM`), 并在`cygwin-shell`下切换到该目录
 
 
-	```bash
-	$ cd /path/to/TEAM
-	```
+		```bash
+		$ cd /path/to/TEAM
+		```
 
-2. 克隆本模板仓库到本地
+	* Fork 模板仓库[LaTeX-TEAM](https://github.com/vanabel/LaTeX-TEAM)
+
+2. 克隆自己的模板仓库到本地
 
 
 	```git
-	$git clone git@github.com:vanabel/LaTeX-TEAM.git
+	$git clone git@github.com:<yourname>/LaTeX-TEAM.git
 	```
 	
 3. 编辑文件
@@ -48,10 +52,11 @@
 	3. 提交文件:`:Gcommit`, 此时会在`Gstatus`窗口顶部要求输入提交的_注释_(不能为空, 我在windows上的gvim不能输入, cygwin下正常). 输入完毕后用`:x`保存并退出, 此时会自动提交
 
 
-5. 同步编辑
+5. 推送本地到Git
 	
 	推送到Git:`Gpush`, 如果有密码, 此时会要求输入密码. 成功后可以在Git仓库中查看.
 
 ###参考链接
 
 1. [vim插件介绍－Fugitive](http://www.d0u9.xyz/vimcha-jian-jie-shao-fugitive/)
+2. [Github的多人协作](https://gist.github.com/suziewong/4378619)
