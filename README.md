@@ -28,7 +28,7 @@
 	```git
 	$git clone git@github.com:vanabel/LaTeX-TEAM.git
 	```
-
+	
 3. 编辑文件
 
 
@@ -45,16 +45,13 @@
 		
 			> 加入文件也可使用`:Gwrite`
 
-	3. 提交文件:`:Gcommit`, 此时会在`Gstatus`窗口顶部要求输入提交的_注释_(不能为空, 我在windows上的gvim不能输入, cygwin下正常)
-	4. 
+	3. 提交文件:`:Gcommit`, 此时会在`Gstatus`窗口顶部要求输入提交的_注释_(不能为空, 我在windows上的gvim不能输入, cygwin下正常). 输入完毕后用`:x`保存并退出, 此时会自动提交
 
 
 5. 同步编辑
+	
+	推送到Git:`Gpush`, 如果有密码, 此时会要求输入密码. 成功后可以在Git仓库中查看.
 
-
-	```git
-	Gpush
-	```
 ###参考链接
 
 1. [vim插件介绍－Fugitive](http://www.d0u9.xyz/vimcha-jian-jie-shao-fugitive/)
