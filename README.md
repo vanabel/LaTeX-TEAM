@@ -17,7 +17,7 @@
 
 1. 新建一个团队协作目录(例如`TEAM`), 并在`cygwin-shell`下切换到该目录
 
-	```
+	```bash
 	$ cd /path/to/TEAM
 	```
 
@@ -29,18 +29,21 @@
 
 3. 编辑文件
 
-	```sh
+	```bash
 	gvim main.tex subs/test.tex
 	```
 
 4. 提交编辑
 
-	```vim
-	:Gwrite
+	```git
+	:Gstatus - cc
 	```
 
 5. 同步编辑
 
+	```git
+	Gpush
+	```
 ###参考链接
 
 1. [vim插件介绍－Fugitive](http://www.d0u9.xyz/vimcha-jian-jie-shao-fugitive/)
