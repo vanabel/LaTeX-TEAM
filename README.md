@@ -16,21 +16,21 @@
 由于本模板仓库包含有LaTeX写作模板以及文件结构. 你可以以此为模板进行协作.
 
 1. 新建一个团队协作目录(例如`TEAM`), 并在`cygwin-shell`下切换到该目录
-```
-$ cd /path/to/TEAM
-```
+ ```
+ $ cd /path/to/TEAM
+ ```
 2. 克隆本模板仓库到本地
-```git
-$git clone git@github.com:vanabel/LaTeX-TEAM.git
-```
+ ```git
+ $git clone git@github.com:vanabel/LaTeX-TEAM.git
+ ```
 3. 编辑文件
-```sh
-gvim main.tex subs/test.tex
-```
+ ```sh
+ gvim main.tex subs/test.tex
+ ```
 4. 提交编辑
-```vim
-:Gwrite
-```
+ ```vim
+ :Gwrite
+ ```
 5. 同步编辑
 
 ###参考链接
